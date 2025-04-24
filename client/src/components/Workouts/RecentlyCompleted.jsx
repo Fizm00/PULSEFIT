@@ -1,4 +1,3 @@
-// src/components/Workouts/RecentlyCompleted.jsx
 import React from "react";
 
 const RecentlyCompleted = () => {

@@ -1,4 +1,3 @@
-// src/components/Workouts/AvailableWorkouts.jsx
 import React from "react";
 
 const AvailableWorkouts = () => {

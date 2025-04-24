@@ -1,4 +1,3 @@
-// src/components/Workouts/WorkoutCategories.jsx
 import React from "react";
 
 const WorkoutCategories = () => {

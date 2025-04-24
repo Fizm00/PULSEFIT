@@ -1,5 +1,4 @@
 function HeroSection() {
-  // Weekly progress data
   const weeklyProgress = {
     workouts: 4,
     completed: 3,

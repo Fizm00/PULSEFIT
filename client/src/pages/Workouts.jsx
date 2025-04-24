@@ -1,4 +1,3 @@
-// src/pages/Workouts.jsx
 import React, { useState } from "react";
 import SearchAndFilterBar from "../components/Workouts/SearchAndFilterBar";
 import RecentlyCompleted from "../components/Workouts/RecentlyCompleted";

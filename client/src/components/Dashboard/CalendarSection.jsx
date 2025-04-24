@@ -17,7 +17,6 @@ const CalendarSection = () => {
     28: "yoga",
   });
 
-  // Generate calendar days for current month
   const getDaysInMonth = () => {
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth();
@@ -28,7 +27,6 @@ const CalendarSection = () => {
 
   const days = getDaysInMonth();
 
-  // Get day of week (0-6) for the first day of current month
   const getFirstDayOfMonth = () => {
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth();
@@ -37,12 +35,10 @@ const CalendarSection = () => {
 
   const firstDayOfMonth = getFirstDayOfMonth();
 
-  // Handle day selection
   const handleDaySelect = (day) => {
     setSelectedDay(day);
   };
 
-  // Get workout type color
   const getWorkoutColor = (type) => {
     switch (type) {
       case "cardio":

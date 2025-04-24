@@ -1,4 +1,3 @@
-// src/components/Workouts/SearchAndFilterBar.jsx
 import React from "react";
 
 const SearchAndFilterBar = ({ searchQuery, setSearchQuery, selectedFilters, toggleFilter }) => {
